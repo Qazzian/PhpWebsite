@@ -1,0 +1,53 @@
+body {
+		font-family:sans-serif;
+		margin:8px 20px;
+}
+
+/* Head area */
+
+h1 {
+	margin: 5px 0;
+}
+
+div.main_menu a{
+	padding: 5px 10px;
+}
+
+div.main_menu a.active {
+	background-color:pink;
+}
+div.main_menu a:hover {
+	background-color:yellow;
+}
+/* content area */
+
+
+div.sub_menu,
+div.content
+{
+	float:left;
+}
+
+div.sub_menu ul {
+ list-style-type:none;
+ margin:10px 20px 10px 0;
+ padding:0;
+}
+div.sub_menu ul li {
+	margin: 3px 0;
+	padding: 5px 10px;
+}
+
+div.sub_menu .active {
+	background-color:pink;
+}
+
+div.sub_menu li:hover {
+	background-color:yellow;
+}
+/* Foot */
+
+.footer {
+	clear: both;
+	padding-top: 20px;
+}

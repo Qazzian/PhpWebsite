@@ -1,0 +1,19 @@
+<?php
+# Set up page values
+$page_title = "Projects - www.Qazzian.co.uk";
+
+include ('../includes/header.php');
+?>
+
+<ul>
+<li><a href="/qazzian/bananagrams">Bananagrams</a> - A web version of the populour Anagram game</li>
+<li><a href="/qazzian/proj/learning_php">Learning PHP</a></li>
+<li><a href="/qazzian/proj/pypulous">Pypulous</a> - Populous in Python</li>
+</ul>
+
+
+
+
+<?php
+include('../includes/template_foot.php');
+?>

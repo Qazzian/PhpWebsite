@@ -1,0 +1,7 @@
+<?php
+
+{
+	$menu = new Menu();
+
+}
+?>
