@@ -1,0 +1,21 @@
+[content]
+; Name of your website
+site_name=Widgets R Us
+; default layout name. This will be a sub directory of the [CMS_ROOT]/includes/layouts directory
+default_layout=main
+
+[database]
+; The name of the database
+db_name=my_db
+; MySQL database username
+db_user=db_user_name
+; MySQL database password
+ db_password=really_secure_password
+; MySQL hostname
+db_host=localhost
+; Charset to use in creating database tables.
+db_charset=utf8
+; The Database Collate type. Don't change this if in doubt
+;db_collate=
+
+
